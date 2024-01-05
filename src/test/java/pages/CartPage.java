@@ -1,2 +1,4 @@
-package pages;public class CartPage {
+package pages;
+
+public class CartPage {
 }

@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05fa82da-3b57-4bff-ba80-51c81c5e74c9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/InventoryItemPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/InventoryItemPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/InventoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/InventoryPage.java" afterDir="false" />
-    </list>
+    <list default="true" id="05fa82da-3b57-4bff-ba80-51c81c5e74c9" name="Changes" comment="Configuração das classes InventoryPage e InventoryItemPage" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,6 +52,18 @@
       <option name="presentableId" value="Default" />
       <updated>1704283159925</updated>
     </task>
+    <task id="LOCAL-00001" summary="Configuração das classes InventoryPage e InventoryItemPage">
+      <created>1704465310736</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704465310736</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Configuração das classes InventoryPage e InventoryItemPage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuração das classes InventoryPage e InventoryItemPage" />
   </component>
 </project>

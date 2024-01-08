@@ -8,20 +8,13 @@ import org.openqa.selenium.support.PageFactory;
 
 public class InventoryPage extends BasePage{
 
-    @FindBy(css = "span.title")
-    WebElement lblPageTitle;
-
-    //@FindBy(id = "item_4_title_link")
+     //@FindBy(id = "item_4_title_link")
     //WebElement lnkProductTitle;
 
 
     public InventoryPage(WebDriver driver) {
         super(driver);
         PageFactory.initElements(driver, this);
-    }
-
-    public String readPageTitle(){
-        return lblPageTitle.getText();
     }
 
     public void clickTitleProduct(String productId){

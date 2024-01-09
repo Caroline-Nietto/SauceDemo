@@ -1,36 +1,36 @@
 package steps;
 
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import pages.BasePage;
+import pages.Base;
 
 import java.util.concurrent.TimeUnit;
 
 public class Hooks{
 
-    BasePage basePage;
+    Base base;
 
-    public Hooks(BasePage basePage) {
-        this.basePage = basePage;
+    public Hooks(Base base) {
+        this.base = base;
     }
 
-    @BeforeEach
+    @Before
     public void iniciar() {
         WebDriverManager.chromedriver().setup();
 
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
 
-        basePage.driver = new ChromeDriver(options);
-        basePage.driver.manage().window().maximize();
-        basePage.driver.manage().timeouts().implicitlyWait(60000, TimeUnit.MILLISECONDS);
+        base.driver = new ChromeDriver(options);
+        base.driver.manage().window().maximize();
+        base.driver.manage().timeouts().implicitlyWait(60000, TimeUnit.MILLISECONDS);
     }
 
-    @AfterEach
+    @After
     public void finalizar() {
-        basePage.driver.quit();
+        base.driver.quit();
     }
 }

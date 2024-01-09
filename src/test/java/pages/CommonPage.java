@@ -1,11 +1,10 @@
 package pages;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class BasePage {
+public class CommonPage extends Base {
 
     @FindBy(id = "shopping_cart_container")
     public WebElement imgCart;
@@ -13,9 +12,8 @@ public class BasePage {
     @FindBy (css = "span.title")
     WebElement lblPageTitle;
 
-    public WebDriver driver;
 
-    public BasePage(WebDriver driver) {
+    public CommonPage(WebDriver driver) {
 
         this.driver = driver;
     }

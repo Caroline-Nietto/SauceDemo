@@ -8,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 public class BasePage {
 
     @FindBy(id = "shopping_cart_container")
-    WebElement imgCart;
+    public WebElement imgCart;
 
     @FindBy (css = "span.title")
     WebElement lblPageTitle;

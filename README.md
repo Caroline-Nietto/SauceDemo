@@ -1,5 +1,5 @@
 
-Automação Web do site saucedemo.com utilizando Selenium WebDriver + Page Object em Java. Utilizei o IntelliJ com JUnit5 e Maven.
+Automação Web do site saucedemo.com utilizando Selenium WebDriver + Cucumber + Page Object em Java. Utilizei o IntelliJ versão 2022.3.2, JUnit5 e Maven.
 
 
 ATIVIDADES:

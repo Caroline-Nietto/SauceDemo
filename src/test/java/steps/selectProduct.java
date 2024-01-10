@@ -22,11 +22,14 @@ public class selectProduct {
     private InventoryPage inventoryPage;
     private InventoryItemPage inventoryItemPage;
 
+    private CommonPage commonPage;
+
 
     // Construtor
-    public selectProduct(CommonPage commonPage){
-       this.driver = commonPage.driver;   // passagem de bola = integração selenium dentro e fora
+    public selectProduct(Base base){
+       this.driver = base.driver;   // passagem de bola = integração selenium dentro e fora
     }
+
 
 
     @Given("I access SauceDemo store")
@@ -34,10 +37,15 @@ public class selectProduct {
         driver.get("https://www.saucedemo.com");
     }
 
+
+
     @When("I filled a user {string} and password {string}")
     public void i_filled_a_user_and_password(String user, String password) {
+
+        homePage = new HomePage(driver);
         homePage.logar(user, password);
     }
+
 
     @And("I click in Login")
     public void i_click_in_login() {

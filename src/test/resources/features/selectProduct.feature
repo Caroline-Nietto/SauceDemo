@@ -1,3 +1,4 @@
+Feature: Select Product in Store
 Scenario Outline: Selecting Product with Success DDT
   Given I access SauceDemo store
   When I filled a user <user> and password <password>

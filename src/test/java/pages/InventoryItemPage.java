@@ -7,13 +7,13 @@ import org.openqa.selenium.support.PageFactory;
 
 public class InventoryItemPage extends CommonPage {
 
-    @FindBy(css = "div.inventory_details_name large_size")
+    @FindBy(css = "div.inventory_details_name.large_size")
     WebElement lblTitleProduct;
 
     @FindBy(css = "div.inventory_details_price")
     WebElement lblPriceProduct;
 
-    @FindBy(css = "button.btn btn_primary btn_small btn_inventory")
+    @FindBy(css = "button.btn.btn_primary.btn_small.btn_inventory")
     WebElement btnAddOrRemoveCart;
 
 

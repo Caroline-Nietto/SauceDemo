@@ -28,6 +28,13 @@ public class selectProduct {
     // Construtor
     public selectProduct(Base base){
        this.driver = base.driver;   // passagem de bola = integração selenium dentro e fora
+
+        homePage = new HomePage(driver);
+        inventoryPage = new InventoryPage(driver);
+        inventoryItemPage = new InventoryItemPage(driver);
+        cartPage = new CartPage(driver);
+        commonPage = new CommonPage(driver);
+
     }
 
 
@@ -40,10 +47,7 @@ public class selectProduct {
 
 
     @When("I filled a user {string} and password {string}")
-    public void i_filled_a_user_and_password(String user, String password) {
-
-        homePage = new HomePage(driver);
-        homePage.logar(user, password);
+    public void i_filled_a_user_and_password(String user, String password) { homePage.logar(user, password);
     }
 
 

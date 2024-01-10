@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05fa82da-3b57-4bff-ba80-51c81c5e74c9" name="Changes" comment="Ajustes no Hooks e Runner">
+    <list default="true" id="05fa82da-3b57-4bff-ba80-51c81c5e74c9" name="Changes" comment="Ajustes no feature e steps">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/InventoryItemPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/InventoryItemPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/selectProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/selectProduct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/selectProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/selectProduct.feature" afterDir="false" />
     </list>
@@ -132,13 +134,21 @@
       <option name="project" value="LOCAL" />
       <updated>1704813704252</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ajustes no feature e steps">
+      <created>1704905173492</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704905173492</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Configuração das classes InventoryPage e InventoryItemPage" />
     <MESSAGE value="Criado o arquivo .feature e o step" />
     <MESSAGE value="Ajustes no Hooks e Runner" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajustes no Hooks e Runner" />
+    <MESSAGE value="Ajustes no feature e steps" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajustes no feature e steps" />
   </component>
 </project>

@@ -15,5 +15,5 @@ Scenario Outline: Selecting Product with Success DDT
   And I verify the quantity is "1"
   And I verify the product price <productPrice> in cart
   Examples:
-  | user            | password        | productId | productTitle          |
-  |"standard_user"  | "secret_sauce"  | "4"       | "Sauce Labs Backpack" |
+  | user            | password        | productId | productTitle          | productPrice |
+  |"standard_user"  | "secret_sauce"  | "4"       | "Sauce Labs Backpack" | "$29.99"     |

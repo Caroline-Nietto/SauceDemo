@@ -21,7 +21,7 @@ IntelliJ versão 2022.3.2, JUnit5 e Maven.
 8. Validar se os dados do produto no carrinho estão corretos
 
 **Feature:**
-src/resources/features/selectProduct.feature  
+src/test/resources/features    
 
 Rodar o teste através do arquivo Runner:  
   src/test/java/steps/Runner.java  

@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05fa82da-3b57-4bff-ba80-51c81c5e74c9" name="Changes" comment="Ajustes no feature e steps">
+    <list default="true" id="05fa82da-3b57-4bff-ba80-51c81c5e74c9" name="Changes" comment="Ajuste no mapeamento dos elementos, instanciando as pages no steps e preenchendo a tabela da feature.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/InventoryItemPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/InventoryItemPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/InventoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/InventoryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/selectProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/selectProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/selectProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/selectProduct.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +63,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager" selected="Cucumber Java.Feature: selectProduct">
+  <component name="RunManager" selected="JUnit.Runner">
     <configuration name="Feature: selectProduct" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/selectProduct.feature" />
@@ -106,8 +105,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: selectProduct" />
         <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.Feature: selectProduct" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704905173492</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ajuste no mapeamento dos elementos, instanciando as pages no steps e preenchendo a tabela da feature.">
+      <created>1704909951844</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704909951844</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -149,6 +155,7 @@
     <MESSAGE value="Criado o arquivo .feature e o step" />
     <MESSAGE value="Ajustes no Hooks e Runner" />
     <MESSAGE value="Ajustes no feature e steps" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajustes no feature e steps" />
+    <MESSAGE value="Ajuste no mapeamento dos elementos, instanciando as pages no steps e preenchendo a tabela da feature." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajuste no mapeamento dos elementos, instanciando as pages no steps e preenchendo a tabela da feature." />
   </component>
 </project>

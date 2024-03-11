@@ -6,11 +6,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class InventoryPage extends CommonPage {
 
-     //@FindBy(id = "item_4_title_link")
-    //WebElement lnkProductTitle;
-
-
-    public InventoryPage(WebDriver driver) {
+     public InventoryPage(WebDriver driver) {
         super(driver);
         PageFactory.initElements(driver, this);
     }

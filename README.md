@@ -4,9 +4,11 @@
  
 
 
-*Ferramentas*:  
-Selenium WebDriver + Cucumber + Page Object em linguagem Java.  
-IntelliJ versão 2022.3.2, JUnit5 e Maven.  
+
+***Ferramentas e Frameworks utilizados***:  
+IntelliJ IDEA versão 2022.3.2, JUnit5, Maven, Selenium WebDriver, Cucumber.  
+Padrão Page Object  
+Linguagem Java    
 
 
 **ATIVIDADES:**    
